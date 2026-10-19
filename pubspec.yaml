@@ -1,0 +1,21 @@
+name: iraqi_business_ai
+description: مساعد التاجر — AI business assistant for Iraqi merchants.
+publish_to: 'none'
+version: 0.3.0+3
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  supabase_flutter: ^2.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
